@@ -1,0 +1,187 @@
+*,
+*::before,
+*::after  {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/img\ background.png)  no-repeat ;
+}    
+.nav {
+    display: flex;
+    justify-content: end;
+}
+.nav a {
+    margin-top: 70px;
+    margin-right: 61px;
+    color: white;
+    text-decoration: none;
+    font-family: "Roboto-Black";
+    font-size: 1.125rem;
+}
+.nav a:last-child {
+    margin-right: 130px;
+}
+
+.header_content {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    margin-top: 9.09%;
+    letter-spacing: 0.1px;
+    margin-right: 9%;
+}
+
+.header_content h1 {
+    color: white;
+    font-family: "Roboto-black";
+    font-size: 40px;
+}
+
+.header_content p {
+    color: white;
+    font-family: "Roboto-medium";
+    font-size: 1.245em;
+    text-align: left;
+    margin-top: 11px;
+}
+
+.btn {
+    border: none;
+    padding: 16px 66px;
+    font-size: 20px;
+    color: black;
+    font-family: 'Roboto-Black';
+    background-color: hsla(48, 100%, 64%, 1);
+}
+
+.btn_pink {
+    margin-top: 3%;
+    border: none;
+    color: white;
+    font-family: 'Roboto-Black';
+    font-size: 20px;
+    background-color: hsla(331, 97%, 45%, 1);
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsla(226, 93%, 94%, 1);
+}
+
+.price h3 {
+    font-size: 30px;
+    margin-top: 55px;
+    margin-bottom: 40px;
+    font-family: 'Roboto-Medium';
+    text-align: center;
+    color: hsla(0, 0%, 35%, 1);
+}
+
+.price h4 {
+    font-size: 30px;
+    margin-bottom: 33px;
+    font-family: 'Roboto-Medium';
+    color: hsla(226, 55%, 33%, 1);
+}
+
+.price .book {
+    margin-top: 18px;
+    margin-bottom: 68px;
+    font-size: 20px;
+    font-family: 'Roboto-Medium';
+    color: hsla(0, 0%, 35%, 1);
+    border-bottom: 3px solid hsla(48, 100%, 64%, 1);
+}
+
+/**hamburger menu**/
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: #04AA6D;
+    color: white;
+  }
+@media only screen and (max-width: 600px) {
+    .header {
+    width: 100%;
+    height: 334px;
+    background: url(../img/img\ background.png)  no-repeat ;
+    background-size: cover;
+    }
+    .menu a {
+        display: none;
+    }
+
+    .header_content {
+        display: flex;
+        align-items: center;
+        margin-top: 19%;
+        margin-left: 9%;
+    }
+
+    .header_content h1 {
+        font-size: 1.850em;
+        padding-top: 1.3%;
+    }
+
+    .header_content p {
+        font-size: 15px;
+        padding-bottom: 38%;
+        margin-top: 2%;
+        text-align: center;
+    }
+    .btn_pink {
+        padding: 14px 105px 13px 104px;
+        margin-top: 3.3%;
+        border: none;
+        color: white;
+        font-family: 'Roboto-Black';
+        font-size: 15px;
+        background-color: hsla(331, 97%, 45%, 1);
+    }
+}
