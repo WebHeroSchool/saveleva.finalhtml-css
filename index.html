@@ -8,17 +8,27 @@
 </head>
 <body>
     <div class="header">
-        <div class="menu">
-            <a href="">Связаться с нами</a>
-            <a href="">Местоположение</a>
-            <a href="">Забронировать</a>
-            <a href="">Узнать цены</a>
+        <div class="nav">
+                <a href="" class="nav_item">Связаться с нами</a>
+                <a href="" class="nav_item">Местоположение</a>
+                <a href="" class="nav_item">Забронировать</a>
+                <a href="" class="nav_item">Узнать цены</a>
         </div>
-        <div class="header-content">
-            <h1>Digital Meeting day</h1>
+        <div class="topnav">
+            <div id="myLinks">
+              <a href="#news">News</a>
+              <a href="#contact">Contact</a>
+              <a href="#about">About</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+        <div class="header_content">
+            <h1><span>Digital Meeting day</span></h1>
             <p>Количество мест ограничено,<br>
                  успей купить билеты</p>
-            <button type="button" class="btn btn-pink">Купить</button>
+            <button type="button" class="btn btn_pink"><a href="#">Купить</a></button>
         </div>
     </div>
     <div class="price">
@@ -26,24 +36,24 @@
         можно приобрести прямо сейчас</h3>
         <h4>7 000 рублей</h4>
         <button class="btn">Купить</button>
-        <a href="">Забронировать</a>
+        <a href="" class="price_book">Забронировать</a>
     </div>
     <div class="participants">
-        <div class="participants-text">
+        <div class="participants_text">
             <h3>Для участников</h3>
             <p>Чтобы стать участником конкурса,<br>
             вам необходимо подать заявку до 1 октября</p>
         </div>
-        <div class="participants-img">
+        <div class="participants_img">
             <img src="img/conf-people.png" alt="">
         </div>
-        <div class="participants-request">
+        <div class="participants_request">
             <button class="btn">Подать заявку</button>
         </div>
     </div>
     <div class="speakers">
         <h2>Спикеры, которые подготовили для вас лекции</h2>
-        <div class="speakers-gallery">
+        <div class="speakers_gallery">
             <img src="img/pic-row1.png" alt="">
             <img src="img/pic-row2.png" alt="">
             <img src="img/pic-row3.png" alt="">
@@ -66,5 +76,6 @@
             <img src="img/tg.svg" alt="">
         </div>
     </div>
+    <script src="/script.js"></script>
 </body>
 </html> 
