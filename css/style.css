@@ -24,7 +24,7 @@ a {
     margin-right: 61px;
     color: white;
     text-decoration: none;
-    font-family: "Roboto-Black";
+    font-family: 'Roboto-Black';
     font-size: 1.125rem;
 }
 .nav__item:last-child {
@@ -42,13 +42,13 @@ a {
 
 .header__content-title{
     color: white;
-    font-family: "Roboto-black";
+    font-family: 'Roboto-Black';
     font-size: 40px;
 }
 
 .header__content-text {
     color: white;
-    font-family: "Roboto-medium";
+    font-family: 'Roboto-Medium';
     font-size: 1.245em;
     text-align: left;
     margin-top: 11px;
